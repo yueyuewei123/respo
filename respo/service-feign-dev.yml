@@ -11,11 +11,7 @@ spring:
     cache: false
     prefix: classpath:/templates/
     suffix: .html
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/yyw3?useUnicode=true&characterEncoding=utf-8
-    username: root
-    password: 123
+
   main:
     allow-bean-definition-overriding: true
 feign:
