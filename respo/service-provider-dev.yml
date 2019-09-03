@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: service-provider
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 123
+    url: jdbc:mysql://127.0.0.1:3306/yyw3?useUnicode=true&characterEncoding=utf-8
+    username: root 
 
 eureka:
   client:
